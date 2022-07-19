@@ -1,0 +1,342 @@
+@import url(fonts.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Kodchasan-Bold';
+}
+
+body{
+    background: #f5f5f5;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav__content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.nav__list{
+    display: flex;
+    padding: 29px 0 38px;
+    max-width: 100%;
+}
+
+.ll{
+    max-width: max-content;
+    width: 100%;
+}
+
+.nav__list-a{
+    color: black;
+    font-family: 'Kodchasan-Medium';
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+.nav__list-a:hover{
+    font-family: 'Kodchasan-Bold';
+    padding-left: 38px;
+    transition: 0.5s;
+}
+
+/* header start */
+
+
+.header{
+    background: url(Photos/top\ background.png) no-repeat center center/cover;
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 182px 0 138px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-bottom: 130px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.haha{
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.title__second{
+    padding-left: 90px;
+}
+
+.header__title{
+    font-size: 100px;
+    line-height: 130px;
+    color: #0B0B0B;
+    row-gap: 10px;
+}
+
+.header__btns{
+    display: flex;
+    column-gap: 30px ;
+}
+
+
+.btn{
+    padding: 18px 50px;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+}
+
+.title__third{
+    padding-bottom: 70px;
+}
+
+
+/* header end */
+
+
+/* shops start */
+
+.shops{
+    padding-bottom: 100px;
+}
+
+
+.shops__title{
+    font-size: 45px;
+    line-height: 72px;
+    padding-bottom: 52px;
+}
+
+.shops__photos{
+    gap: 100px;
+    display: flex;
+    padding-bottom: 133px;
+}
+
+.shops__img{
+     margin-left: -120px;
+     max-width: 827px;
+
+}
+
+
+.first-img{
+    column-gap: 100px;
+    display: flex;
+}
+
+.second-img{
+    column-gap: 100px;
+    display: flex;
+}
+
+.btn3{
+    transition: 0.5s;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 18px 50px;
+    color: white;
+    background:#E58311;
+    max-width: max-content;
+}
+
+.shops__content-text{
+    font-family: 'Kodchasan-SemiBold';
+    font-size: 22px;
+    max-width: 516px;
+    width: 100%;
+    padding-bottom: 50px;
+    line-height: 35px;
+}
+
+.shops__content-title{
+    font-size: 45px;
+    width: 100%;
+    max-width: 560px;
+    line-height: 65px;
+    padding-bottom: 30px;
+}
+
+.shops__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+/* shops end */
+
+
+
+/* honey start */
+
+
+.honey__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.honey__content-title{
+    font-size: 45px;
+    width: 560px;
+    line-height: 65px;
+    padding-bottom: 30px;
+}
+
+.honey__content-text{
+    font-family: 'Kodchasan-SemiBold';
+    font-size: 22px;
+    width: 516px;
+    padding-bottom: 50px;
+    line-height: 35px;
+}
+
+
+.honey__img{
+    max-width: 827px;
+    width: 100%;
+}
+
+
+/* honey end */
+
+
+/* product start */
+
+
+.product__title{
+    font-size: 45px;
+    color: black;
+    line-height: 72px;
+    padding-bottom: 50px;
+}
+
+.product__content{
+    display: flex;
+    column-gap: 30px;
+}
+
+.product__left-title{
+    font-size: 28px;
+    line-height: 39px;
+    padding-bottom: 20px;
+    font-family: 'Kodchasan-SemiBold';
+}
+
+.product__left-text{
+    width: 302px;
+    line-height: 25px;
+    font-family: 'Kodchasan-SemiBold';
+    padding-bottom: 40px;
+}
+
+.footer-btn{
+    color: #E58211;
+    border: 1px solid #E58211;
+    padding: 14px 40px;
+    transition: 0.5s;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.dd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vv{
+    color:#E58211;
+    border-bottom: 1px solid ;
+    max-width: max-content;
+}
+
+.footer-btn:hover{
+    background: #E58211;
+    color: white;
+}
+
+.product__left{
+    display: flex;
+    column-gap: 15px;
+    padding: 45px 0 40px 30px;
+    background: #f8e7d5;
+    max-width: 538px;
+    width: 100%;
+}
+
+.product{
+    padding-bottom: 131px;
+}
+
+/* product end */
+
+
+/* footer start */
+
+footer{
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+}
+
+.footer__left{
+    display: flex;
+    column-gap: 50px;   
+    align-items: center;
+}
+
+.footer__text{
+    width: 269px;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Kodchasan-Medium';
+    padding: 45px 0;
+}
+
+.footer__logo{
+    height: 100%;
+}
+
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__icons{
+    column-gap: 40px;
+    display: flex;
+}
+
+.footer__right{
+    display: flex;
+    column-gap: 20px;
+}
+
+/* footer end */

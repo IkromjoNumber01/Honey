@@ -1,0 +1,459 @@
+@media(max-width: 1400px){
+    .honey__content{
+        flex-direction: column-reverse;
+    }
+
+    .honey__img{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 1200px){
+    .product__content{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .dd{
+        padding: 0 100px;
+    }
+}
+
+@media(max-width: 1000px){
+.footer__content{
+    flex-direction: column;
+}
+
+.footer__left{
+    column-gap: 140px;
+    padding-bottom: 10px;
+}
+
+.footer__icons{
+    column-gap: 65px;
+    padding-bottom: 60px;
+}
+
+.footer__right{
+    column-gap: 70px;
+}
+}
+
+@media(max-width: 1300px){
+    .shops__photos{
+        column-gap: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .shops__content{
+        flex-wrap: wrap;
+    }
+
+    .shops{
+        margin-left: 50px;
+    }
+
+    .shops__img{
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 1170px){
+    .header{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 1142px){
+    .first-img{
+        column-gap: 160px;
+    }
+    
+    .second-img{
+        column-gap: 160px;
+    }
+}
+
+@media(max-width: 810px){
+    .honey__img{
+        max-width: 700px;
+    }
+}
+
+@media(max-width: 515px){
+    .honey__content-text{
+        font-size: 19px;
+        max-width: 440px;
+    }
+
+    .honey__content-title{
+        font-size: 40px;
+        max-width: 100px;
+    }
+}
+
+@media(max-width: 550px){
+    .honey__content-text{
+        font-size: 20px;
+    }
+
+    .honey__img{
+        max-width: 560px;
+    }
+
+    .honey__content-title{
+        font-size: 40px;
+        max-width: 520px;
+    }
+
+    .product__title{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 570px){
+    .honey__left{
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 640px){
+    .product__left{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: max-content;
+        text-align: center;
+        padding: 45px 20px 40px 30px;
+        margin-right: 20px;
+    }
+
+    .product-img{
+        padding-right: 30px;
+        padding-bottom: 25px;
+    }
+
+
+}
+
+@media(max-width: 680px){
+    .honey__img{
+        max-width: 630px;
+    }
+
+    .shops__photos{
+        margin-right: 60px;
+    }
+}
+
+@media(max-width: 540px){
+    .nav__content{
+        flex-direction: column-reverse;
+        padding-bottom: 15px;
+    }
+
+    .nav__list{
+        column-gap: 25px;
+    }
+
+    .honey__content-text{
+        font-size: 19px;
+        max-width: 410px;
+    }
+
+}
+
+@media(max-width: 510px){
+    .nav__list{
+        column-gap: 10px;
+    }
+}
+@media(max-width: 780px){
+    .shops__img{
+        max-width: 700px;
+    }
+}
+
+@media(max-width: 490px){
+    .header__title{
+        font-size: 86px;
+    }
+
+    .shops__title{
+        font-size: 42px;
+    }
+}
+
+@media(max-width: 466px){
+    .header__btns{
+        flex-direction: column;
+        max-width: max-content;
+        row-gap: 45px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .btnn1{
+        padding: 18px 61px;
+    }
+
+    .footer__left{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+}
+
+
+@media(max-width: 450px){
+    .nav__list{
+        column-gap: 0px;
+    }
+
+    .nav__list-a{
+        font-size: 15px;
+    }
+
+    .header__title{
+        font-size: 80px;
+    }
+
+    .shops__title{
+        font-size: 38px;
+        max-width: 400px;
+    }
+
+}
+
+@media(max-width: 630px){
+    .shops__img{
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 660px){
+    .dd{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 600px){
+    .first-img{
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    .second-img{
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    .img-shops{
+        width: 200px;
+    }
+
+    .shops__left{
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 750px){
+    .first-img{
+        column-gap: 80px;
+    }
+
+    .second-img{
+        column-gap: 80px;
+    }
+}
+
+
+@media(max-width: 530px){
+    .shops__content-title{
+        font-size: 38px;
+        max-width: 410px;
+    }
+
+    .shops__img{
+        max-width: 540px;
+    }
+
+    .honey__left{
+        margin-left: 30px;
+    }
+
+    .honey__content-title{
+        font-size: 38px;
+        max-width: 400px;
+        display: inline-block;
+    }
+
+    .footer__left{
+        column-gap: 70px;
+    }
+}
+
+@media(max-width: 470px){
+.product__title{
+    font-size: 34px;
+}
+}
+
+
+@media(max-width: 420px){
+    .honey__content-text{
+        max-width: 280px;
+        font-size: 18px;
+    }
+
+    .honey__content-title{
+        width: 310px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 440px){
+    .shops__content-title{
+        font-size: 33px;
+    }
+
+    .shops__content-text{
+        font-size: 19px;
+        max-width: 365px;
+        width: 100%;
+    }
+
+    .honey__content-title{
+        font-size: 33px;
+        max-width: 370px;
+    }
+
+    .shops__photos{
+        margin-right: 30px;
+    }
+
+    .product__title{
+        font-size: 30px;
+        margin-left: -40px;
+    }
+}
+
+@media(max-width: 450px){
+    .shops__img{
+        width: 460px;
+    }
+}
+
+@media(max-width: 410px){
+    .footer__right{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media(max-width: 410px){
+    .nav__list{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .nav__list-a{
+        font-size: 19px;
+    }
+
+    .shops__content-title{
+        font-size: 30px;
+    }
+
+    .honey__content-title{
+        font-size: 30px;
+    }
+    .honey__content-text{
+        font-size: 17px;
+    }
+
+    .shops__content-text{
+        font-size: 17px;
+    }
+
+    .product__left-title{
+        font-size: 24px;
+    }
+
+    .product__left-text{
+        font-size: 14px;
+        max-width: 265px;
+    }
+
+    .product__left{
+        padding: 45px 5px 40px 8px;
+    }
+}
+
+@media(max-width: 370px){
+    .header__title{
+        font-size: 70px;
+    }
+
+    .shops__img{
+        max-width: 420px;
+    }
+
+    .honey__content-title{
+        font-size: 30px;
+    }
+
+    .honey__img{
+        max-width: 370px;
+    }
+
+    .shops__photos{
+        margin-right: 60px;
+    }
+}
+
+@media(max-width: 367px){
+.product__title{
+    margin-left: -90px;
+}
+
+.vv{
+    margin-left: -90px;
+}
+}
+
+@media(max-width: 320px){
+
+    .honey__left{
+        margin-right: 10px;
+    }
+
+    .title__second{
+        margin-left: -30px;
+    }
+}
+
+@media(max-width: 340px){
+    .header__title{
+        font-size: 62px;
+    }
+
+    .nav__list-a{
+        font-size: 22px;
+    }
+    .shops__img{
+        max-width: 410px;
+    }
+
+    .honey__content-title{
+        font-size: 28px;
+    }
+
+    .shops__content-title{
+        font-size: 28px;
+    }
+}
